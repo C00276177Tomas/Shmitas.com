@@ -1,4 +1,5 @@
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
@@ -8,13 +9,13 @@ function Menu() {
     alignItems: "center",
     gap: "5vh"
   }}>
-        <a href="/TeamPlayAnalysis" className="menu-button" style={{marginTop: "100px"}}>
-            Team Play Analysis
-        </a>
+        <Link to="/Portfolio" className="menu-button" style={{marginTop:"5vw"}}>
+        My Portfolio
+        </Link>
 
-        <a href="/Portfolio" className="menu-button">
-            My Portfolio
-        </a>
+        <Link to="/TeamPlayAnalysis" className="menu-button">
+        Team Play Analysis
+        </Link>
     </div>
   );
 }
