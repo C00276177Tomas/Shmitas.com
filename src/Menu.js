@@ -17,12 +17,17 @@ function Menu() {
         <br/><br/>Please select an option below: </b>
 
         <Link to="/Portfolio" className="menu-button">
-        My Portfolio
+        Portfolio Website
         </Link>
 
         <Link to="/TeamPlayAnalysis" className="menu-button">
         Team Play Analysis
         </Link>
+
+        <b>
+        <br /><br />This is a list of my deployed projects.
+        
+        <br/><br/>To see projects that havn't reached deployment stage, please go to my Portfolio Website.</b>
     </div>
   );
 }
