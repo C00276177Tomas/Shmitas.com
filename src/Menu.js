@@ -1,5 +1,6 @@
 import './Menu.css';
 import { Link } from 'react-router-dom';
+import TomasCV from "./docs/CVTomasSmitasAug26.pdf";
 
 function Menu() {
   return (
@@ -15,6 +16,14 @@ function Menu() {
         <br /><br />I'm passionate about software development and data science. 
         
         <br/><br/>Please select an option below: </b>
+
+        <a
+          href={TomasCV}
+          download
+          className="menu-button"
+        >
+          Download My CV (PDF)
+        </a>
 
         <Link to="/Portfolio" className="menu-button">
         Portfolio Website
