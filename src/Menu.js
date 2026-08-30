@@ -9,7 +9,14 @@ function Menu() {
     alignItems: "center",
     gap: "5vh"
   }}>
-        <Link to="/Portfolio" className="menu-button" style={{marginTop:"5vw"}}>
+        <b style={{marginTop:"3vw"}}>Hi, I’m Tomas Smitas{" "}
+        <span style={{ fontSize: "1.5em" }}>👋</span>
+
+        <br /><br />I'm passionate about software development and data science. 
+        
+        <br/><br/>Please select an option below: </b>
+
+        <Link to="/Portfolio" className="menu-button">
         My Portfolio
         </Link>
 
