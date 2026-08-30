@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bcd76913.css",
-    "main.js": "/static/js/main.37a3f73c.js",
+    "main.js": "/static/js/main.76dc3054.js",
     "static/media/FinalVideoDemo.mp4": "/static/media/FinalVideoDemo.d547086a465ff171eece.mp4",
     "static/media/background.jpg": "/static/media/background.e31c5453bedbb3d17a1c.jpg",
     "static/media/SiteSafeReport.pdf": "/static/media/SiteSafeReport.86222eb0d6b7176b48e2.pdf",
@@ -20,6 +20,7 @@
     "static/media/ChatGPT.png": "/static/media/ChatGPT.9643581735fb1774e004.png",
     "static/media/6Deep.png": "/static/media/6Deep.f5c3d3ca5a405a88092c.png",
     "static/media/14.png": "/static/media/14.8f8b80e34f6d35030540.png",
+    "static/media/CVTomasSmitasAug26.pdf": "/static/media/CVTomasSmitasAug26.ba157cf44439a7eaed43.pdf",
     "static/media/12.png": "/static/media/12.321931375045586151d8.png",
     "static/media/4.png": "/static/media/4.b93c6aeb8ffd4d1a6a68.png",
     "static/media/2.png": "/static/media/2.4fee01adf2f05b7a47f7.png",
@@ -79,10 +80,10 @@
     "static/media/KNNnormalise.png": "/static/media/KNNnormalise.814ae4088f8558f5addf.png",
     "index.html": "/index.html",
     "main.bcd76913.css.map": "/static/css/main.bcd76913.css.map",
-    "main.37a3f73c.js.map": "/static/js/main.37a3f73c.js.map"
+    "main.76dc3054.js.map": "/static/js/main.76dc3054.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd76913.css",
-    "static/js/main.37a3f73c.js"
+    "static/js/main.76dc3054.js"
   ]
 }
