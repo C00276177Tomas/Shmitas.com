@@ -1,8 +1,15 @@
 import './Menu.css';
 import { Link } from 'react-router-dom';
 import TomasCV from "./docs/CVTomasSmitasAug26.pdf";
+import backgroundImage from "./images/background.jpg";
+import { useEffect } from "react";
 
 function Menu() {
+    useEffect(() => {
+        const img = new Image();
+        img.src = backgroundImage;
+    }, []);
+
   return (
     <div style={{
     display: "flex",
@@ -13,7 +20,7 @@ function Menu() {
         <b style={{marginTop:"3vw"}}>Hi, I’m Tomas Smitas{" "}
         <span style={{ fontSize: "1.5em" }}>👋</span>
 
-        <br /><br />I'm passionate about software development and data science. 
+        <br/><br/>I'm passionate about software development and data science. 
         
         <br/><br/>Please select an option below: </b>
 
@@ -38,6 +45,7 @@ function Menu() {
         
         <br/><br/>To see projects that havn't reached deployment stage, please go to my Portfolio Website.</b>
     </div>
+
   );
 }
 
