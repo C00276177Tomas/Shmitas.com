@@ -20,7 +20,17 @@ function TeamPlayAnalysis() {
         >
           - A plan for Minimum Viable Product.
         </a> <br/>
-        - Website layout <br/>
+        <a
+          href="#layout"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById("layout")?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          - Website Example Layout.
+        </a> <br/>
         - camera angle of sports field analysis<br/>
         - a tripod to hold up the mobile device for filming <br/>
         - streaming on youtube/twitch to get around storage costs? <br/>
